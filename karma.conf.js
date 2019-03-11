@@ -4,7 +4,7 @@
 module.exports = function (config) {
   config.set({
     preprocessors: {
-      '**/*.ts': ['karma-typescript']
+      '**/*.tsx': ['karma-typescript']
     },
     typescriptPreprocessor: {
       // options passed to the typescript compiler
