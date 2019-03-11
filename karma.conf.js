@@ -26,7 +26,7 @@ module.exports = function (config) {
     files: [
       'src/app/*.ts'
     ],
-    frameworks: ['jasmine', '@angular/cli'],
+    frameworks: ['jasmine', '@angular/cli', 'sinon'],
     plugins: [
       require('karma-jasmine'),
       require('karma-chrome-launcher'),
